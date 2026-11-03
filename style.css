@@ -1,0 +1,172 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600&display=swap');
+
+
+/* ------------------------------
+   GENERAL PAGE
+------------------------------ */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f3eb;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+/* ------------------------------
+   HERO SECTION
+------------------------------ */
+
+#hero {
+  background-color: #e8d5c4;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.recipe-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 55px;
+  color: #4a3428;
+  margin-bottom: 15px;
+}
+
+.intro-text {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+}
+
+.hero-image {
+  width: 70%;
+  max-width: 800px;
+  display: block;
+  margin: 30px auto 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ------------------------------
+   MAIN CONTENT
+------------------------------ */
+
+#main-content {
+  width: 85%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+
+/* ------------------------------
+   RECIPE SECTIONS
+------------------------------ */
+
+.recipe-section {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  font-family: 'DM Serif Display', serif;
+  color: #6b4632;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.recipe-text,
+.section-text,
+.tip-text {
+  font-size: 16px;
+}
+
+
+/* ------------------------------
+   INGREDIENTS
+------------------------------ */
+
+.ingredient-list {
+  padding-left: 25px;
+}
+
+.ingredient-item {
+  margin-bottom: 8px;
+}
+
+
+/* ------------------------------
+   INSTRUCTIONS
+------------------------------ */
+
+.instruction-list {
+  padding-left: 25px;
+}
+
+.instruction-item {
+  margin-bottom: 12px;
+}
+
+
+/* ------------------------------
+   IMAGES
+------------------------------ */
+
+.recipe-image,
+.ingredient-image,
+.instruction-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+
+/* ------------------------------
+   TIPS
+------------------------------ */
+
+.subheading {
+  color: #6b4632;
+  font-size: 22px;
+}
+
+
+/* ------------------------------
+   CALL TO ACTION
+------------------------------ */
+
+.recipe-link {
+  display: inline-block;
+  background-color: #6b4632;
+  color: white;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.recipe-link:hover {
+  background-color: #4a3428;
+}
+
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+
+#footer {
+  background-color: #4a3428;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer-text {
+  margin: 20 px;
